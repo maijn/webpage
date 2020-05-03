@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> t x c - travel x change </title>
+    <meta name="viewport" content="width=device-width">
+    <link href="css/template.css" rel="stylesheet">
+
+    <style type="text/css">
+        .container {
+            margin-left: 109px;
+            margin-right: 109px;
+        }
+        
+        .layer {
+            padding-top: 38px;
+            padding-bottom: 50px;
+        }
+        
+        .grid-container {
+            display: grid;
+            grid-row-gap: 50px;
+            grid-template-columns: auto auto auto;
+        }
+        
+        .grid-container>.grid-item {
+            max-width: 365px;
+            padding-bottom: 10px;
+        }
+        
+        .item-singa-city,
+        .item-singa-food,
+        .item-singa-campus,
+        .item-kl,
+        .item-bali,
+        .item-vn,
+        .item-jp,
+        .item-sk,
+        .item-buda,
+        .item-italy {
+            width: 100%;
+        }
+        
+        .text-item {
+            padding-top: 10px;
+            font-size: 12px;
+            text-align: center;
+            text-transform: uppercase;
+            height: 51px;
+        }
+        
+        .item-description {
+            padding-bottom: 10px;
+        }
+        
+        .item-read-more {
+            text-transform: uppercase;
+            padding-top: 10px;
+        }
+        
+        .item-read-more:hover {
+            border-bottom: 1px solid black;
+            transition: border-bottom 0.5s;
+        }
+        
+        .item-read-more a {
+            color: black;
+            text-decoration: none;
+            transition: color 0.5s;
+        }
+        
+        .item-read-more a:hover {
+            color: #8a8a8a;
+        }
+        
+        @media screen and (max-width: 700px) {
+            .container {
+                margin: 20px;
+            }
+            .layer {
+                padding: 0;
+            }
+            body {
+                font-size: 11px;
+            }
+            .item-description {
+                font-size: 11px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="nav-wrapper">
+        <div class="left-side">
+            <div class="brand"></div>
+            <div class="nav-link-wrapper-brand">
+                <a href="home.html">t x c</a></div>
+        </div>
+
+        <div class="right-side">
+            <div class="nav-link-wrapper">
+                <a id="about" href='about.html'>About</a></div>
+            <div class="nav-link-wrapper">
+                <a href='travels.html'>Travels</a></div>
+            <div class="nav-link-wrapper">
+                <a href='contact.html'>Contact</a></div>
+        </div>
+    </div>
+
+    <div class="container">
+
+        <div class="title">
+            <h2>My destinations</h2></div>
+
+        <div class="layer">
+            <div class="grid-container">
+                <div class="grid-item">
+                    <img class="item-jp" src="image/jp.jpeg">
+                    <div class="text-item">
+                        Japan
+                    </div>
+                    <div class="item-description">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eu ante at odio finibus laoreet. In feugiat ante sit amet pretium tempor. Vivamus auctor dapibus gravida. Curabitur posuere leo quis commodo consectetur. Aliquam ultrices, tortor eu feugiat gravida, erat urna...
+                    </div>
+                    <div class="item-read-more">
+                        <a id="travel-link" href="japan.html">Read more </a>
+                    </div>
+                </div>
+
+                <div class="grid-item">
+                    <img class="item-italy" src="image/italy_food.jpeg">
+                    <div class="text-item">
+                        Italy
+                    </div>
+                    <div class="item-description">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eu ante at odio finibus laoreet. In feugiat ante sit amet pretium tempor. Vivamus auctor dapibus gravida. Curabitur posuere leo quis commodo consectetur. Aliquam ultrices, tortor eu feugiat gravida, erat urna...
+                    </div>
+                    <div class="item-read-more"> Read more </div>
+                </div>
+
+                <div class="grid-item">
+                    <img class="item-singa-food" src="image/singa_city.jpeg">
+                    <div class="text-item">
+                        Singapore
+                    </div>
+                    <div class="item-description">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eu ante at odio finibus laoreet. In feugiat ante sit amet pretium tempor. Vivamus auctor dapibus gravida. Curabitur posuere leo quis commodo consectetur. Aliquam ultrices, tortor eu feugiat gravida, erat urna...
+                    </div>
+                    <div class="item-read-more"> Read more </div>
+                </div>
+
+                <div class="grid-item">
+                    <img class="item-sk" src="image/sk.jpeg">
+                    <div class="text-item">
+                        South Korea
+                    </div>
+                    <div class="item-description">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eu ante at odio finibus laoreet. In feugiat ante sit amet pretium tempor. Vivamus auctor dapibus gravida. Curabitur posuere leo quis commodo consectetur. Aliquam ultrices, tortor eu feugiat gravida, erat urna...
+                    </div>
+                    <div class="item-read-more"> Read more </div>
+                </div>
+                <div class="grid-item">
+                    <img class="item-buda" src="image/budapest.jpeg">
+                    <div class="text-item">
+                        Hungary
+                    </div>
+                    <div class="item-description">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eu ante at odio finibus laoreet. In feugiat ante sit amet pretium tempor. Vivamus auctor dapibus gravida. Curabitur posuere leo quis commodo consectetur. Aliquam ultrices, tortor eu feugiat gravida, erat urna...
+                    </div>
+                    <div class="item-read-more"> Read more </div>
+                </div>
+
+                <div class="grid-item">
+                    <img class="item-kl" src="image/kl.jpeg">
+                    <div class="text-item">
+                        Malaysia
+                    </div>
+                    <div class="item-description">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eu ante at odio finibus laoreet. In feugiat ante sit amet pretium tempor. Vivamus auctor dapibus gravida. Curabitur posuere leo quis commodo consectetur. Aliquam ultrices, tortor eu feugiat gravida, erat urna...
+                    </div>
+                    <div class="item-read-more"> Read more </div>
+                </div>
+
+                <div class="grid-item">
+                    <img class="item-vn" src="image/vn.jpeg">
+                    <div class="text-item">
+                        Vietnam
+                    </div>
+                    <div class="item-description">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eu ante at odio finibus laoreet. In feugiat ante sit amet pretium tempor. Vivamus auctor dapibus gravida. Curabitur posuere leo quis commodo consectetur. Aliquam ultrices, tortor eu feugiat gravida, erat urna...
+                    </div>
+                    <div class="item-read-more"> Read more </div>
+                </div>
+
+                <div class="grid-item">
+                    <img class="item-bali" src="image/bali.jpeg">
+                    <div class="text-item">
+                        Indonesia
+                    </div>
+                    <div class="item-description">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eu ante at odio finibus laoreet. In feugiat ante sit amet pretium tempor. Vivamus auctor dapibus gravida. Curabitur posuere leo quis commodo consectetur. Aliquam ultrices, tortor eu feugiat gravida, erat urna...
+                    </div>
+                    <div class="item-read-more"> Read more </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="clearfix"></div>
+
+    <footer id="footer">
+        &copy; 2020 travel x change. All Rights Reserved
+    </footer>
+
+</body>
+
+</html>
