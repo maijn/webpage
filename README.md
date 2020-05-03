@@ -1,6 +1,6 @@
 ## travel x change
 
-Velkommen til nettsiden min!
+Velkommen til travel x change!
 
 Denne nettsiden dokumenterer utvekslingen min i Singapore og andre reiser som jeg har gjort. Foreløpig har den fire sections:
 
